@@ -15,4 +15,4 @@ aux = 0
 for x in estado:
   aux = estado[x] * 100
   aux = aux / Porcento
-  print(f'Estado: {x}, Porcentagem: ' + "%.2f" % aux)
+  print(f'Estado: {x}, Porcentagem:  {"%.2f" % aux}%')
